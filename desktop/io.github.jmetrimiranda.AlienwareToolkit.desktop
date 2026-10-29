@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Application
+Version=1.5
+Name=Alienware Toolkit
+GenericName=Peripheral Control Panel
+GenericName[pt_BR]=Painel de periféricos
+Comment=Alienware AW720M mouse RGB, AW725H headset fix and keyboard preview on Linux
+Comment[pt_BR]=Luz RGB do mouse AW720M, conserto do headset AW725H e prévia do teclado no Linux
+Exec=@APPDIR@/run.sh
+Icon=io.github.jmetrimiranda.AlienwareToolkit
+Terminal=false
+Categories=Settings;HardwareSettings;
+Keywords=alienware;mouse;headset;keyboard;rgb;lighting;battery;AW720M;AW725H;K617;redragon;
+Keywords[pt_BR]=alienware;mouse;headset;fone;teclado;rgb;iluminação;bateria;AW720M;AW725H;
+StartupNotify=true
+StartupWMClass=io.github.jmetrimiranda.AlienwareToolkit

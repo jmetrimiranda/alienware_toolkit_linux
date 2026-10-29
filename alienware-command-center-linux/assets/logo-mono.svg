@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Alienware Toolkit for Linux - logo de uma cor (icone simbolico 16 px). Not affiliated with Dell/Alienware; the alien head is an original drawing inspired by the brand. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+<g transform="translate(1.333 0) scale(0.06667)"><path fill="#2e3436" fill-rule="evenodd" d="M100 4C139 4 181 36 181 92C181 118 176 138 165 157C153 175 119.8 215.1 108.7 229.3C106.6 231.97 103.39 233.5 100 233.5C96.61 233.5 93.4 231.97 91.3 229.3C80.2 215.1 47 175 35 157C24 138 19 118 19 92C19 36 61 4 100 4ZM114 155C121.49 123.58 149.61 98.68 172.5 108C172.83 132.37 148.08 172.26 114 155ZM86 155C78.51 123.58 50.39 98.68 27.5 108C27.17 132.37 51.92 172.26 86 155Z"/></g>
+</svg>

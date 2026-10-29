@@ -1,0 +1,267 @@
+/* Tema do Painel Alienware, inspirado no Alienware Command Center (AWCC).
+   Paleta: fundo #1b1d21, barra lateral #111214, painéis #24272c, bordas #31353b,
+   texto #e8eaed, acento ciano #00c8d7 (hover #22e0ee). */
+
+/* Cores que a libadwaita usa nos controles padrão (sliders, interruptores, foco...) */
+@define-color accent_color #00c8d7;
+@define-color accent_bg_color #00c8d7;
+@define-color accent_fg_color #0b0c0e;
+@define-color window_bg_color #1b1d21;
+@define-color window_fg_color #e8eaed;
+@define-color view_bg_color #24272c;
+@define-color view_fg_color #e8eaed;
+@define-color card_bg_color #24272c;
+@define-color card_fg_color #e8eaed;
+@define-color popover_bg_color #24272c;
+@define-color popover_fg_color #e8eaed;
+@define-color dialog_bg_color #24272c;
+@define-color headerbar_bg_color #111214;
+@define-color borders #31353b;
+
+window {
+  background-color: #1b1d21;
+  color: #e8eaed;
+  font-family: "Inter", "Cantarell", sans-serif;
+  font-size: 13px;
+}
+
+/* ---------- barra lateral (só ícones) ---------- */
+.lateral {
+  background-color: #111214;
+  border-right: 1px solid #31353b;
+}
+.lateral .logo { margin: 16px 0 22px 0; }
+.lateral button {
+  min-width: 64px;
+  min-height: 54px;
+  padding: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  color: #7d838c;
+}
+.lateral button:hover { color: #e8eaed; background-color: rgba(255, 255, 255, 0.04); }
+.lateral button.ativo {
+  color: #00c8d7;
+  background-color: rgba(0, 200, 215, 0.07);
+  box-shadow: inset 3px 0 0 #00c8d7;   /* a barra ciano à esquerda do item ativo */
+}
+
+/* ---------- barra superior (arrastar a janela + fechar/minimizar) ---------- */
+.topo { min-height: 34px; padding: 0 6px 0 22px; }
+.topo .marca { font-size: 10px; letter-spacing: 3px; color: #5d636b; font-weight: 600; }
+windowcontrols button { color: #8a9099; min-width: 28px; min-height: 28px; }
+windowcontrols button:hover { color: #ffffff; }
+
+/* ---------- títulos: CAIXA ALTA, fonte fina ---------- */
+.titulo {
+  font-family: "Inter Display", "Inter", sans-serif;
+  font-weight: 200;
+  font-size: 26px;
+  letter-spacing: 4px;
+  color: #ffffff;
+}
+.secao {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #8a9099;
+}
+.valor-grande {
+  font-family: "Inter Display", "Inter", sans-serif;
+  font-weight: 200;
+  font-size: 44px;
+  color: #ffffff;
+}
+.valor-medio {
+  font-family: "Inter Display", "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: #ffffff;
+}
+.dim { color: #8a9099; }
+.ciano { color: #00c8d7; }
+.aviso { color: #ffb020; }
+.mono { font-family: monospace; font-size: 12px; }
+.texto-ajuda { color: #9aa0a8; font-size: 12px; }
+
+/* ---------- painéis e cartões ---------- */
+.painel {
+  background-color: #24272c;
+  border: 1px solid #31353b;
+  border-radius: 3px;
+}
+.bloco {
+  background-color: #1f2226;
+  border: 1px solid #31353b;
+  border-radius: 3px;
+  padding: 14px 16px;
+}
+button.cartao {
+  background-color: #24272c;
+  border: 1px solid #31353b;
+  border-radius: 3px;
+  padding: 0;
+  box-shadow: none;
+  color: #e8eaed;
+}
+button.cartao:hover { border-color: #00c8d7; background-color: #282c32; }
+button.cartao label { font-weight: normal; }
+button.cartao label.nome {
+  font-family: "Inter Display", "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  letter-spacing: 1.5px;
+}
+.etiqueta {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  padding: 2px 7px;
+  border-radius: 2px;
+  border: 1px solid #4a4f57;
+  color: #8a9099;
+}
+.etiqueta.suportado { border-color: #00c8d7; color: #00c8d7; }
+flowboxchild { padding: 0; background: none; }
+flowboxchild:focus { outline: none; }
+
+/* ---------- abas no estilo AWCC (texto + sublinhado ciano) ---------- */
+.abas { border-bottom: 1px solid #31353b; padding: 0 12px; }
+.abas button {
+  background: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 12px 16px 10px 16px;
+  border-bottom: 2px solid transparent;
+  color: #8a9099;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.abas button:hover { color: #e8eaed; }
+.abas button:checked { color: #ffffff; border-bottom-color: #00c8d7; background: none; }
+
+/* ---------- barra inferior (CANCELAR / APLICAR) ---------- */
+.barra-inferior {
+  min-height: 38px;
+  background-color: #111214;
+  border-top: 1px solid #31353b;
+  padding: 10px 22px;
+}
+button.aplicar {
+  background-color: #00c8d7;
+  color: #0b0c0e;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border-radius: 2px;
+  padding: 8px 26px;
+  box-shadow: none;
+}
+button.aplicar:hover { background-color: #22e0ee; }
+button.aplicar:disabled { background-color: #2e3a3d; color: #5d6870; }
+button.cancelar {
+  background: none;
+  color: #c9cdd3;
+  font-weight: 600;
+  letter-spacing: 2px;
+  border-radius: 2px;
+  padding: 8px 18px;
+  box-shadow: none;
+}
+button.cancelar:hover { color: #22e0ee; }
+
+/* botões secundários: contorno fino */
+button.contorno {
+  background-color: #1b1d21;
+  border: 1px solid #3a3f46;
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 6px 14px;
+  box-shadow: none;
+  color: #e8eaed;
+}
+button.contorno:hover { border-color: #00c8d7; color: #22e0ee; }
+button.contorno:checked { border-color: #00c8d7; color: #00c8d7; background-color: rgba(0, 200, 215, 0.10); }
+button.contorno:disabled { color: #5d636b; border-color: #2c3035; }
+
+button.voltar { background: none; box-shadow: none; color: #8a9099; min-width: 32px; padding: 4px; }
+button.voltar:hover { color: #22e0ee; }
+
+/* amostras de cor (o fundo de cada uma vem de uma classe gerada no código) */
+button.amostra {
+  min-width: 30px;
+  min-height: 30px;
+  padding: 0;
+  border-radius: 2px;
+  border: 2px solid #31353b;
+  box-shadow: none;
+}
+button.amostra:hover { border-color: #e8eaed; }
+.previa-cor { border: 1px solid #31353b; border-radius: 2px; }
+
+/* ---------- campos ---------- */
+entry {
+  background-color: #1b1d21;
+  border: 1px solid #3a3f46;
+  border-radius: 2px;
+  box-shadow: none;
+}
+entry:focus-within { border-color: #00c8d7; outline: none; }
+dropdown > button {
+  background-color: #1b1d21;
+  border: 1px solid #3a3f46;
+  border-radius: 2px;
+  box-shadow: none;
+}
+dropdown > button:hover { border-color: #00c8d7; }
+scale trough { background-color: #31353b; min-height: 4px; }
+scale highlight { background-color: #00c8d7; }
+scale slider { background-color: #e8eaed; }
+
+/* log do diagnóstico */
+.log, .log text { background-color: #111214; color: #b8bcc3; }
+.log { border: 1px solid #31353b; border-radius: 2px; }
+
+/* aviso de permissão */
+banner > revealer > widget { background-color: #3a2a12; color: #ffcf7a; }
+
+tooltip {
+  background-color: #0e0f11;
+  border: 1px solid #31353b;
+  border-radius: 3px;
+  color: #e8eaed;
+}
+tooltip label { font-size: 12px; }
+
+link, button.link > label { color: #00c8d7; }
+button.link { padding-left: 0; padding-right: 0; }
+
+/* ---------- v3: visualizador 3D, teclado K617, atalhos ---------- */
+/* botões discretos no canto do 3D (girar sozinho, resetar vista) */
+button.botao-3d {
+    background-color: rgba(17, 18, 20, 0.72);
+    border: 1px solid #31353b;
+    border-radius: 2px;
+    color: #8a9099;
+    min-width: 30px;
+    min-height: 30px;
+    padding: 2px;
+    box-shadow: none;
+}
+button.botao-3d:hover { color: #22e0ee; border-color: #00c8d7; }
+button.botao-3d:checked { color: #00c8d7; background-color: rgba(0, 200, 215, 0.12); }
+/* amostras das cores de fábrica por fileira do K617 Rainbow */
+label.fileira { border-radius: 2px; border: 1px solid #31353b; }
+label.fileira-1 { background-color: #ff2a2a; }
+label.fileira-2 { background-color: #ffa412; }
+label.fileira-3 { background-color: #2ee05a; }
+label.fileira-4 { background-color: #13a8ff; }
+label.fileira-5 { background-color: #9a4dff; }
+/* tabela de atalhos Fn */
+list.atalhos { background: none; border: 1px solid #31353b; border-radius: 2px; }
+list.atalhos row { border-bottom: 1px solid #2a2d32; }
+list.atalhos row:hover { background-color: rgba(255, 255, 255, 0.03); }
+list.atalhos row:selected { background-color: rgba(0, 200, 215, 0.10); }

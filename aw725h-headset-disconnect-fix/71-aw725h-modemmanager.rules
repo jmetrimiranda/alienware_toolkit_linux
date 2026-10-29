@@ -1,0 +1,9 @@
+# Alienware AW725H: make ModemManager ignore the headset dongle.
+# Every time the dongle reboots, its MediaTek chip shows up for ~1 s as 0e8d:0003
+# (bootloader, cdc_acm -> /dev/ttyACM0) and ModemManager tries to probe it as a modem.
+# That is useless and only adds noise to the reconnect. Optional.
+# Install: sudo install -m 644 71-aw725h-modemmanager.rules /etc/udev/rules.d/ && sudo udevadm control --reload-rules
+ACTION=="remove", GOTO="aw725h_mm_end"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="0e8d", ATTRS{idProduct}=="0003", ENV{ID_MM_DEVICE_IGNORE}="1"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="413c", ATTRS{idProduct}=="ab2b", ENV{ID_MM_DEVICE_IGNORE}="1"
+LABEL="aw725h_mm_end"

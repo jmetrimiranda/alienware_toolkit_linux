@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ilustração do headset (vista de frente), traço claro para fundo escuro. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="400" viewBox="0 0 360 400">
+  <g fill="none" stroke="#c9cdd3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- arco da cabeça (duplo) -->
+    <path d="M62 230 C52 120 104 40 180 40 C256 40 308 120 298 230"/>
+    <path d="M84 226 C78 136 120 66 180 66 C240 66 282 136 276 226" stroke="#8a9099"/>
+    <!-- almofada do arco -->
+    <path d="M128 58 C150 50 210 50 232 58" stroke="#6b717a" stroke-width="8"/>
+    <!-- conchas -->
+    <rect x="34" y="214" width="76" height="132" rx="30" fill="#1f2226"/>
+    <rect x="250" y="214" width="76" height="132" rx="30" fill="#1f2226"/>
+    <!-- almofadas internas -->
+    <path d="M104 228 C116 252 116 308 104 332" stroke="#6b717a"/>
+    <path d="M256 228 C244 252 244 308 256 332" stroke="#6b717a"/>
+    <!-- detalhe externo das conchas -->
+    <rect x="48" y="244" width="40" height="72" rx="18" stroke="#8a9099" stroke-width="2"/>
+    <rect x="272" y="244" width="40" height="72" rx="18" stroke="#8a9099" stroke-width="2"/>
+    <!-- haste do microfone -->
+    <path d="M60 330 C64 372 110 384 150 378"/>
+    <rect x="148" y="368" width="22" height="18" rx="8" fill="#1f2226"/>
+  </g>
+</svg>

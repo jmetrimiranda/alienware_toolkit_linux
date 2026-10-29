@@ -1,0 +1,10 @@
+idVendor=258a
+idProduct=002a
+bcdDevice=1209
+manufacturer=SINO WEALTH
+product=Gaming KB 
+speed=12
+version= 1.10
+bMaxPower=500mA
+1-3:1.0/ep_81 bInterval=01 wMaxPacketSize=0008
+1-3:1.1/ep_82 bInterval=01 wMaxPacketSize=0010

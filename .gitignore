@@ -1,0 +1,9 @@
+.venv/
+logs/
+__pycache__/
+*.pyc
+.claude/
+# dados locais gerados pelo app e pelas ferramentas
+alienware-command-center-linux/dados/
+# notas para a sessão de instalação (não fazem parte do repositório)
+INSTALAR_SESSAO_PRINCIPAL.md

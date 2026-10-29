@@ -1,0 +1,6 @@
+# OPTIONAL: SINO WEALTH gaming keyboard 258a:002a, USB interface 1 only (lighting/feature reports, read-only use today).
+# Privacy warning: interface 1 also carries the NKRO key reports, so ANY program in your session could read
+# what you type. Install only if you want to experiment, and remove it afterwards.
+# Two steps because the interface number and the vendor/product live on different parent devices.
+KERNEL=="hidraw*", KERNELS=="*:1.1", ENV{ALIENWARE_TK_IFACE1}="1"
+KERNEL=="hidraw*", ENV{ALIENWARE_TK_IFACE1}=="1", ATTRS{idVendor}=="258a", ATTRS{idProduct}=="002a", TAG+="uaccess"

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ilustração do mouse (vista de cima), traço claro para fundo escuro.
+     O brilho da cor escolhida é desenhado pelo painel por baixo e sobre o logo da palma
+     (centro do logo em x=150, y=318 deste viewBox). -->
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="440" viewBox="0 0 300 440">
+  <g fill="none" stroke="#c9cdd3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- corpo -->
+    <path fill="#1f2226" d="M150 18 C206 18 246 52 252 112 C258 176 262 250 254 312
+             C246 378 206 422 150 422 C94 422 54 378 46 312 C38 250 42 176 48 112
+             C54 52 94 18 150 18 Z"/>
+    <!-- divisão dos botões esquerdo e direito -->
+    <path d="M150 20 L150 176"/>
+    <path d="M50 150 C92 168 208 168 250 150" stroke="#8a9099"/>
+    <!-- roda de rolagem -->
+    <rect x="138" y="64" width="24" height="62" rx="12" fill="#2a2e34"/>
+    <path d="M142 80 H158 M142 92 H158 M142 104 H158 M142 116 H158" stroke="#6b717a" stroke-width="2"/>
+    <!-- botão de DPI -->
+    <rect x="143" y="140" width="14" height="22" rx="5" stroke="#8a9099" stroke-width="2"/>
+    <!-- botões laterais (lado esquerdo) -->
+    <path d="M46 196 C40 206 40 232 46 242" stroke="#8a9099"/>
+    <path d="M45 252 C39 262 39 288 45 298" stroke="#8a9099"/>
+    <!-- recortes de ventilação/estilo na lateral -->
+    <path d="M70 200 C64 240 66 290 80 340" stroke="#4a4f57" stroke-width="2"/>
+    <path d="M230 200 C236 240 234 290 220 340" stroke="#4a4f57" stroke-width="2"/>
+  </g>
+  <!-- logo da palma (zona de luz) -->
+  <path id="logo" fill="#e8eaed" fill-rule="evenodd" transform="translate(126 289) scale(0.48)" d="
+    M50 3 C77 3 94 21 93 45 C92 69 70 101 50 117 C30 101 8 69 7 45 C6 21 23 3 50 3 Z
+    M45.5 66 C41 55 29 46 15.5 45 C20 57 32 66.5 45.5 66 Z
+    M54.5 66 C59 55 71 46 84.5 45 C80 57 68 66.5 54.5 66 Z"/>
+</svg>

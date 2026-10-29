@@ -1,0 +1,7 @@
+{
+  "uuid": "alienware-toolkit-hover@jmetrimiranda.github.io",
+  "name": "Alienware Toolkit hover",
+  "description": "Animates the Alienware Toolkit icon on the Ubuntu Dock and the overview dash on mouse hover (eyes light up in cyan, the microphone LED blinks and the alien hops). Not affiliated with Dell/Alienware.",
+  "shell-version": ["46"],
+  "version-name": "1.0"
+}

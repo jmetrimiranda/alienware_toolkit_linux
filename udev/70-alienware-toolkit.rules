@@ -1,0 +1,7 @@
+# Alienware Toolkit for Linux: lets the logged-in user talk to these HID devices without root.
+# Mouse Alienware AW720M: 413c:3029 = 2.4 GHz dongle, 413c:3028 = USB-C cable
+KERNEL=="hidraw*", ATTRS{idVendor}=="413c", ATTRS{idProduct}=="3028|3029", TAG+="uaccess"
+# Headset Alienware AW725H: dongle 413c:ab2b (vendor channel, read-only use: battery/status)
+KERNEL=="hidraw*", ATTRS{idVendor}=="413c", ATTRS{idProduct}=="ab2b", TAG+="uaccess"
+# The number 70 matters: uaccess must be tagged before 73-seat-late.rules.
+# The SINO WEALTH keyboard is NOT here on purpose: see 71-sinowealth-keyboard-optional.rules.

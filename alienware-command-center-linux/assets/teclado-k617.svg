@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Redragon K617 Fizz Rainbow (60%, 61 teclas), vista de cima: corpo preto e LEDs com a cor fixa de fábrica
+     de cada fileira (vermelho, laranja, verde, azul, roxo). Desenho próprio para o Alienware Toolkit. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="457" height="181" viewBox="0 0 457 181">
+  <defs>
+    <filter id="brilho" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.6" result="borrado"/>
+      <feMerge><feMergeNode in="borrado"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="6" y="8" width="445" height="165" rx="12" fill="#1f2226" stroke="#c9cdd3" stroke-width="2.5"/>
+  <g id="teclas">
+    <rect x="20.0" y="22.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#ff2a2a" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="48.0" y="22.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#ff2a2a" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="76.0" y="22.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#ff2a2a" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="104.0" y="22.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#ff2a2a" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="132.0" y="22.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#ff2a2a" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="160.0" y="22.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#ff2a2a" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="188.0" y="22.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#ff2a2a" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="216.0" y="22.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#ff2a2a" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="244.0" y="22.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#ff2a2a" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="272.0" y="22.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#ff2a2a" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="300.0" y="22.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#ff2a2a" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="328.0" y="22.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#ff2a2a" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="356.0" y="22.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#ff2a2a" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="384.0" y="22.0" width="53.0" height="25.0" rx="3" fill="#16181b" stroke="#ff2a2a" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="20.0" y="50.0" width="39.0" height="25.0" rx="3" fill="#16181b" stroke="#ffa412" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="62.0" y="50.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#ffa412" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="90.0" y="50.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#ffa412" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="118.0" y="50.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#ffa412" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="146.0" y="50.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#ffa412" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="174.0" y="50.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#ffa412" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="202.0" y="50.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#ffa412" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="230.0" y="50.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#ffa412" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="258.0" y="50.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#ffa412" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="286.0" y="50.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#ffa412" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="314.0" y="50.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#ffa412" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="342.0" y="50.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#ffa412" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="370.0" y="50.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#ffa412" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="398.0" y="50.0" width="39.0" height="25.0" rx="3" fill="#16181b" stroke="#ffa412" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="20.0" y="78.0" width="46.0" height="25.0" rx="3" fill="#16181b" stroke="#2ee05a" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="69.0" y="78.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#2ee05a" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="97.0" y="78.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#2ee05a" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="125.0" y="78.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#2ee05a" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="153.0" y="78.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#2ee05a" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="181.0" y="78.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#2ee05a" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="209.0" y="78.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#2ee05a" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="237.0" y="78.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#2ee05a" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="265.0" y="78.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#2ee05a" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="293.0" y="78.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#2ee05a" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="321.0" y="78.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#2ee05a" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="349.0" y="78.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#2ee05a" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="377.0" y="78.0" width="60.0" height="25.0" rx="3" fill="#16181b" stroke="#2ee05a" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="20.0" y="106.0" width="60.0" height="25.0" rx="3" fill="#16181b" stroke="#13a8ff" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="83.0" y="106.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#13a8ff" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="111.0" y="106.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#13a8ff" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="139.0" y="106.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#13a8ff" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="167.0" y="106.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#13a8ff" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="195.0" y="106.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#13a8ff" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="223.0" y="106.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#13a8ff" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="251.0" y="106.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#13a8ff" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="279.0" y="106.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#13a8ff" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="307.0" y="106.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#13a8ff" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="335.0" y="106.0" width="25.0" height="25.0" rx="3" fill="#16181b" stroke="#13a8ff" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="363.0" y="106.0" width="74.0" height="25.0" rx="3" fill="#16181b" stroke="#13a8ff" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="20.0" y="134.0" width="32.0" height="25.0" rx="3" fill="#16181b" stroke="#9a4dff" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="55.0" y="134.0" width="32.0" height="25.0" rx="3" fill="#16181b" stroke="#9a4dff" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="90.0" y="134.0" width="32.0" height="25.0" rx="3" fill="#16181b" stroke="#9a4dff" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="125.0" y="134.0" width="172.0" height="25.0" rx="3" fill="#16181b" stroke="#9a4dff" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="300.0" y="134.0" width="32.0" height="25.0" rx="3" fill="#16181b" stroke="#9a4dff" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="335.0" y="134.0" width="32.0" height="25.0" rx="3" fill="#16181b" stroke="#9a4dff" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="370.0" y="134.0" width="32.0" height="25.0" rx="3" fill="#16181b" stroke="#9a4dff" stroke-width="1.6" filter="url(#brilho)"/>
+    <rect x="405.0" y="134.0" width="32.0" height="25.0" rx="3" fill="#16181b" stroke="#9a4dff" stroke-width="1.6" filter="url(#brilho)"/>
+  </g>
+</svg>
